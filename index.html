@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="style.css">
+  <title>
+    Rock paper scissors
+  </title>
+  </head>
 <body>
-
-<script  src="script.js"></script>
+    <div id="container">
+<!--
+the way we are using value to target the button in Javascript.
+-->
+        <button id="rockbtn" value ="rock" onclick="game(this.value)">Rock</button>
+        <button id="paperbtn" value="paper" onclick="game(this.value)">Paper</button>
+        <button id="scissorsbtn" value="scissors" onclick="game(this.value)">Scissors</button>
+    </div>
+    <div id="result"></div>
+ <script src="testScript.js"></script>
 </body>
 </html>
